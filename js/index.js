@@ -5,7 +5,7 @@ const resources = {
     btns: document.querySelectorAll('nav a'),
     dc: document.querySelector('.dynamic-content')
 }
-// console.log(resources.btns, resources.dc);
+console.log(resources.btns, resources.dc);
 
 let url = './partials/home.html';
 
