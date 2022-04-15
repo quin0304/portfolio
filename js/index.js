@@ -7,7 +7,7 @@ const resources = {
 }
 console.log(resources.btns, resources.dc);
 
-let url = '/partials/home.html';
+let url = './partials/home.html';
 
 let promise = (url) =>{
 
