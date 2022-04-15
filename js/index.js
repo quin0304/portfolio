@@ -1,13 +1,11 @@
 let dc = document.querySelector('.dynamic-content'); //dom targets dynamic container
 let error = document.querySelector('.error');
-// let navItems = document.querySelectorAll('btn a nav'); //dom
 const resources = {
     btns: document.querySelectorAll('nav a'),
     dc: document.querySelector('.dynamic-content')
 }
-// console.log(resources.btns, resources.dc);
 
-let url = './partials/home.html';
+let url = '/portfolio/partials/home.html';
 
 let promise = (url) =>{
 
