@@ -25,7 +25,7 @@ let promise = (url) =>{
 }
 promise(url);
 
-resources.dc.innerHTML = promise(url);
+
 
 function targetContent(ev) {
     ev.preventDefault();
@@ -39,7 +39,8 @@ function targetContent(ev) {
     activeItem.id='active';
     activeItem.url= ev.target.href;
     url = activeItem.url;
-    promise(url);
+    resources.dc.innerHTML = promise(url);
+    
    
 };
 
