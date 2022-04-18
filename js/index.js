@@ -1,6 +1,6 @@
-let dc = document.querySelector('.dynamic-content'); //dom targets dynamic container
+let dc = document.querySelector('.dynamic-content');
 let error = document.querySelector('.error');
-// let navItems = document.querySelectorAll('btn a nav'); //dom
+
 const resources = {
     btns: document.querySelectorAll('nav a'),
     dc: document.querySelector('.dynamic-content')
