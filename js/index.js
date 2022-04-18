@@ -24,7 +24,7 @@ let promise = (url) =>{
 }
 promise(url);
 
-resources.dc.innerHTML = promise(url);
+
 
 function targetContent(ev) {
     ev.preventDefault();
